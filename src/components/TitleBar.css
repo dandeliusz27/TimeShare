@@ -1,0 +1,31 @@
+.titleBarContainer {
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.titleBarLogo {
+    /* background-color: aqua; */
+    width: 118px;
+    height: 28px;
+    display: flex;
+    
+}
+
+.titleBarLogo p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.titleBarLogoTime {
+    font-weight: 400;
+}
+
+.titleBarLogoShare {
+    font-weight: 900;
+    color: #5E81F4;
+}

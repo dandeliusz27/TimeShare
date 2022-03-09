@@ -1,0 +1,73 @@
+.calendarContainer {
+    width: 100%;
+    /* background-color:aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.calendarDate {
+    /* background-color:brown; */
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .calendarDate div {
+        /* background-color: blueviolet; */
+        width: 118px;
+        display: flex;
+        flex-direction: row;
+        align-items:flex-end;
+        justify-content: space-between;
+    }
+    .calendarMonth {
+        margin: 0;
+        font-weight: 600;
+        font-size: 20px;
+        /* background-color:black; */
+    }
+    .calendarYear {
+        margin: 0;
+        font-weight: 300;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.6);
+        /* background-color: yellow; */
+    }
+
+.calendarBox {
+    background-color: rgba(196, 196, 196, 0.1);;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.calendarWeek {
+    font-size: small;
+    height: 37px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendarWeek div {
+    margin: auto;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+} 
+
+.calendarDays {
+    height: 260px;
+    /* background-color: blueviolet; */
+    display: grid;
+
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.calendarDays div {
+    margin: auto;
+    font-weight: 400;
+    font-size: 14px;
+}

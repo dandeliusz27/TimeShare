@@ -1,0 +1,17 @@
+.buttonContainer {
+    width: 162px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: #5E81F4;
+    margin: 10px auto 10px auto;
+    display: flex ;
+    flex-direction: column;
+}
+
+.buttonContainer p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+
+}

@@ -1,0 +1,116 @@
+.eventContainer {
+    /* background-color: #2d2d2d; */
+    height: 66px;
+    display: grid;
+    grid-template-columns: 44px auto 44px;
+    border-radius: 12px 12px 0 0 ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* .eventDate {
+    grid-column: 1;
+    grid-row: 1/4;
+} */
+
+    /* .eventDateDay {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .eventDateMonth {
+        text-align: center;
+    } */
+
+
+/* .eventPeople {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .eventPeople div {
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: aqua;
+} */
+
+/* .eventText {
+    grid-row: 2/4;
+    font-size: small;
+} */
+
+.box1 { 
+    /* background-color: aqua; */
+    display: flex;
+    margin: auto;
+}
+
+.box2 {
+    /* background-color: yellowgreen; */
+    display: grid;
+    grid-template-rows: 14px 14px 1fr 16px 1fr;
+    grid-template-columns: 60px 1fr;
+}
+
+    .eventText {
+        /* background-color: blue; */
+        grid-row: 2/3;
+        grid-column: 1/4;
+    }
+
+        .eventText p {
+            font-weight: 400;
+            margin: 0;
+            font-size: 12px;
+            color: #000000;
+        }
+
+    .friends {
+        /* background-color: blueviolet; */
+        grid-row: 4/5;
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: row;
+    }
+
+        .friend1 {
+            background-color:brown;
+            width: 16px;
+            height: 16px;
+            border-radius: 10px;
+        }
+
+    .time {
+        /* background-color: slategrey; */
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+        .time p {
+            margin: 0;
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.4)
+        }
+
+.box3 {
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.box3 p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.profilePic {
+    width: 24px;
+    height: 24px;
+    background-color: red;
+    border-radius: 10px;
+}

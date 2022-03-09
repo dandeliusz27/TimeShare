@@ -1,0 +1,42 @@
+.homeBox {
+    /* background-color: violet; */
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 68px 260px;
+}
+
+  .homeBoxCalendar {
+    margin: 0 20px 0 20px;
+    /* background-color: blue; */
+  }
+
+  .homeboxButton {
+    margin: 0 20px 0 20px;
+    /* background-color: coral; */
+  }
+
+  .homeBoxEventText {
+    /* background-color: blueviolet; */
+    width: 210px;
+    height: 21px;
+    margin: 0 0 20px 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .homeBoxEvent {
+    background-color: #f2f2f2;
+    padding: 20px 20px 0 20px;
+  }
+
+  .homeBoxEventList {
+    background-color: #FFF;
+    border-radius: 12px;
+    height: 192px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
