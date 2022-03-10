@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from "react-router-dom";
 import { FaUserFriends } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import { FaRegSun } from "react-icons/fa";
@@ -9,18 +10,18 @@ import { FaRegSun } from "react-icons/fa";
 function navbar() {
   return (
     <div className="navbarContainer">
-        <div className="navFriends">
+        <Link to='FriendsPage' className="navFriends">
           <div className="navFriendsIcon"><FaUserFriends size="23px"/></div>
           <p className="navFriendsText">Friends</p>
-        </div>
-        <div className="navHome">
+        </Link>
+        <Link to='/' className="navHome">
           <div className="navHomeIcon"><FaHome size="23px"/></div>
           <p className="navHomeText">Home</p>
-        </div>
-        <div className="navProfile">
+        </Link>
+        <Link to='ProfilePage' className="navProfile">
           <div className="navProfileIcon"><FaRegSun size="23px"/></div>
           <p className="navProfileText">Profile</p>
-        </div>
+        </Link>
     </div>
   )
 }

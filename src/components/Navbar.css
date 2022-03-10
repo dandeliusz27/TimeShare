@@ -10,6 +10,19 @@
     justify-content:space-evenly;
 }
 
+a:link, a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover, :active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-decoration: none;
+    color: #5E81F4;
+}
+
+  
+
 .navFriends {
     width: 33px;
     height: 40px;
