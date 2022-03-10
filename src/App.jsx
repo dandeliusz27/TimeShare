@@ -1,6 +1,6 @@
 import './App.css';
 import { Link } from "react-router-dom";
-import  Home  from "./routes/Home";
+import  HomePage  from "./routes/HomePage";
 import Navbar from './components/Navbar';
 import TitleBar from './components/TitleBar';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <TitleBar/>
-      <Home/> 
+      <HomePage/> 
       <Navbar/>
     </div>
   );

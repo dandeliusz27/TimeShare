@@ -2,7 +2,7 @@
     /* background-color: violet; */
     width: 100%;
     display: grid;
-    grid-template-rows: auto 1fr 230px;
+    grid-template-rows: auto 1fr 290px;
 }
 
   .homeBoxCalendar {

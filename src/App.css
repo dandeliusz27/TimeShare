@@ -13,6 +13,5 @@ body {
   float: left;
 
   display: grid;
-  /* grid-template-rows: 58px calc(100vh - 118px) 60px; */
-  grid-template-rows: 58px auto 60px;
+  grid-template-rows: 58px auto;
 }

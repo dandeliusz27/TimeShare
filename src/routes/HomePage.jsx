@@ -1,10 +1,10 @@
 import React from 'react'
 import Calendar from '../components/Calendar'
-import './Home.css'
+import './HomePage.css'
 import Event from '../components/Event'
 import Button from "../components/Button";
 
-function Home() {
+function HomePage() {
   return (
       <div className="homeBox">
         <div className="homeBoxCalendar">
@@ -28,4 +28,4 @@ function Home() {
   )
 }
 
-export default Home
+export default HomePage
