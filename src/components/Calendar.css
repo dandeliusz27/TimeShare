@@ -45,7 +45,7 @@
 
 .calendarWeek {
     font-size: small;
-    height: 37px;
+    height: 30px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
@@ -58,7 +58,7 @@
 } 
 
 .calendarDays {
-    height: 260px;
+    height: 230px;
     /* background-color: blueviolet; */
     display: grid;
 

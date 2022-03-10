@@ -2,7 +2,7 @@
     /* background-color: violet; */
     width: 100%;
     display: grid;
-    grid-template-rows: auto 68px 260px;
+    grid-template-rows: auto 1fr 230px;
 }
 
   .homeBoxCalendar {
@@ -12,7 +12,7 @@
 
   .homeboxButton {
     margin: 0 20px 0 20px;
-    /* background-color: coral; */
+    background-color: coral;
   }
 
   .homeBoxEventText {
@@ -35,7 +35,7 @@
   .homeBoxEventList {
     background-color: #FFF;
     border-radius: 12px;
-    height: 192px;
+    height: 162px;
     overflow: hidden;
     overflow-y: scroll;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
