@@ -1,0 +1,32 @@
+.friendsContainer {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 70vh;
+}
+
+.fbox1 {
+background-color:black
+}
+
+.fbox2 {
+    background-color: yellowgreen;
+}
+
+.fbox3 {
+    background-color: violet;
+    grid-column: 1/3;
+}   
+    
+
+.fbox4 {
+    background-color:brown;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.fbox4s {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    background-color:blueviolet;
+}

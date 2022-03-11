@@ -14,7 +14,7 @@ function HomePage() {
           <Button/>
         </div>
         <div className="homeBoxEvent">
-          <p className='homeBoxEventText'>Nadchodzące wydarzenia:</p>
+          {/* <p className='homeBoxEventText'>Nadchodzące wydarzenia:</p> */}
           <div className="homeBoxEventList">
             <Event/>
             <Event/>
