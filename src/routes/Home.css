@@ -1,0 +1,38 @@
+.homeBox {
+    display: grid;
+    background-color: aqua;
+    grid-template-rows: 55vh 1fr 25vh 60px;
+}
+
+.blackButton{
+    display: grid;
+    background-color: aqua;
+    grid-template-rows: 55vh 1fr 25vh 60px;
+}
+  
+  .whiteButton{
+    display: grid;
+    background-color: aqua;
+    grid-template-rows: 15vh 1fr 65vh 60px;
+  }
+
+.hbox1 {
+    background-color: black;
+}
+
+
+.hbox3 {
+    background-color: violet ;
+}
+
+.hbox4 {
+    background-color: thistle;
+    padding: 20px 20px 0 20px;
+}
+
+.homeBoxEventList {
+    border-radius: 12px;
+    height: 90%;
+    overflow: hidden;
+    overflow-y: scroll;
+}

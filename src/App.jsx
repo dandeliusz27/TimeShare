@@ -1,5 +1,5 @@
 import './App.css';
-import  HomePage  from "./routes/Home2";
+import  Home  from "./routes/Home";
 import Navbar from './components/Navbar';
 import TitleBar from './components/TitleBar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <TitleBar/>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/ProfilePage" element={<ProfilePage />}/>
         <Route path="/FriendsPage" element={<FriendsPage />}/>
       </Routes>
