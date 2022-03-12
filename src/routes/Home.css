@@ -1,33 +1,38 @@
 .homeBox {
     display: grid;
-    background-color: aqua;
+    /* background-color: aqua; */
     grid-template-rows: 55vh 1fr 25vh 60px;
 }
 
 .blackButton{
     display: grid;
-    background-color: aqua;
+    /* background-color: aqua; */
     grid-template-rows: 55vh 1fr 25vh 60px;
 }
   
   .whiteButton{
     display: grid;
-    background-color: aqua;
-    grid-template-rows: 15vh 1fr 65vh 60px;
+    /* background-color: aqua; */
+    grid-template-rows: 20vh 1fr 60vh 60px;
   }
 
 .hbox1 {
-    background-color: black;
+    /* background-color: black; */
 }
 
+.btn_class {
+    height: 10%;
+    width: 100%;
+}
 
 .hbox3 {
-    background-color: violet ;
+    /* background-color: violet ; */
 }
 
 .hbox4 {
-    background-color: thistle;
+    background-color: #f2f2f2;
     padding: 20px 20px 0 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .homeBoxEventList {

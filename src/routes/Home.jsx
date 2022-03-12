@@ -26,8 +26,8 @@ export class Home extends Component {
        return (
         <div className={homeBox}>
             <div className="hbox1">
-                {/* <Calendar/> */}
-                CALENDAR
+                <Calendar/>
+                {/* CALENDAR */}
             </div>
             <div className="hbox3">BUTTON</div>
             <div className="hbox4">
@@ -36,6 +36,14 @@ export class Home extends Component {
                           Button
                 </button>
                 <div className="homeBoxEventList">
+                    <Event/>
+                    <Event/>
+                    <Event/>
+                    <Event/>
+                    <Event/>
+                    <Event/>
+                    <Event/>
+                    <Event/>
                     <Event/>
                     <Event/>
                     <Event/>
