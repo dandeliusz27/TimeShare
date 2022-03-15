@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Calendar from '../components/Calendar';
 import './HomePage.css';
 import Event from '../components/Event';
 import { FaChevronUp } from "react-icons/fa";
 import Button from '../components/Button';
+import Cal from '../components/Cal';
 
 
 export class HomePage extends Component {
@@ -21,10 +21,11 @@ changeColor(){
 
 render(){
    let homeEventBox = this.state.closed ? "homeEventBoxClosed" : "homeEventBoxOpen";
-
+  
    return (
     <div className="homeContainer">
         <div className="homeCalendarBox">
+          <Cal/>
         </div>
         <div className="homeButtonBox">
           <Button/>

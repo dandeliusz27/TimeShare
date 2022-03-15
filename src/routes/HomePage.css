@@ -1,12 +1,12 @@
 .homeContainer {
   display: grid;
   /* background-color: aqua; */
-  grid-template-rows: auto 68px 25vh 60px;
+  grid-template-rows: 350px auto 20vh 60px;
 }
 
 .homeCalendarBox {
-  background-color: black;
-  margin: 0 20px 0 20px;
+  /* background-color: black; */
+  margin: 0px 20px 0 20px;
 }
 
 .homeButtonBox {
