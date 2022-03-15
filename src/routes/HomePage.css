@@ -1,42 +1,55 @@
-.homeBox {
-    /* background-color: violet; */
-    width: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr 290px;
+.homeContainer {
+  display: grid;
+  /* background-color: aqua; */
+  grid-template-rows: auto 68px 25vh 60px;
 }
 
-  .homeBoxCalendar {
-    margin: 0 20px 0 20px;
-    /* background-color: blue; */
-  }
+.homeCalendarBox {
+  background-color: black;
+  margin: 0 20px 0 20px;
+}
 
-  .homeboxButton {
-    margin: 0 20px 0 20px;
-    /* background-color: coral; */
-  }
+.homeButtonBox {
+  /* background-color: violet ; */
+  margin: 0 20px 0 20px;
+}
 
-  .homeBoxEventText {
-    /* background-color: blueviolet; */
-    height: 21px;
-    margin: 0 0 20px 0;
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 18px;
-    line-height: 21px;
-    font-style: normal;
-    font-weight: normal;
-  }
 
-  .homeBoxEvent {
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    padding: 20px 20px 0 20px;
-  }
+.homeEventBoxClosed{
+  background-color: #f2f2f2;
+  border-radius: 20px 20px 0 0 ;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .homeBoxEventList {
-    background-color: #FFF;
-    border-radius: 12px;
-    height: 162px;
-    overflow: hidden;
-    overflow-y: scroll;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  }
+.homeEventBoxOpen{
+  background-color: #f2f2f2;
+  border-radius: 20px 20px 0 0;
+  height: calc(70vh - 30px);
+  padding: 0;
+  bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.homeEventButton {
+  height: 25px;
+  width: 50px;
+  padding: 0;
+  border: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.homeEventList {
+  border-radius: 12px;
+  width: 100%;
+  height: calc(100% - 30px);
+  overflow: hidden;
+  overflow-y: scroll;
+}

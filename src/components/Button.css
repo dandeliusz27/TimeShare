@@ -6,12 +6,12 @@
     margin: 10px auto 10px auto;
     display: flex ;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttonContainer p {
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    text-align: center;
-
 }

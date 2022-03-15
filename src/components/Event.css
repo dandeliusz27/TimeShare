@@ -1,56 +1,29 @@
 .eventContainer {
-    /* background-color: #2d2d2d; */
-    /* background-color: rgba(196, 196, 196, 0.1);; */
     background-color: #FFF;;
     height: 66px;
     display: grid;
     grid-template-columns: 44px auto 44px;
+    margin: 5px 20px;
     border-radius: 12px 12px 12px 12px ;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    margin-bottom: 5px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* .eventDate {
-    grid-column: 1;
-    grid-row: 1/4;
-} */
-
-    /* .eventDateDay {
-        text-align: center;
-        font-size: 2em;
-    }
-
-    .eventDateMonth {
-        text-align: center;
-    } */
-
-
-/* .eventPeople {
-    display: flex;
-    flex-direction: row;
-} */
-
-/* .eventPeople div {
-    width: 15px;
-    height: 15px;
-    margin: 3px;
-    border-radius: 10px;
-    background-color: aqua;
-} */
-
-/* .eventText {
-    grid-row: 2/4;
-    font-size: small;
-} */
-
-.box1 { 
+.eventProfileBox { 
     /* background-color: aqua; */
     display: flex;
     margin: auto;
 }
 
-.box2 {
+    .profilePic {
+        width: 24px;
+        height: 24px;
+        background-color: red;
+        border-radius: 10px;
+    }
+
+
+
+.eventTextBox {
     /* background-color: yellowgreen; */
     display: grid;
     grid-template-rows: 14px 14px 1fr 16px 1fr;
@@ -71,7 +44,7 @@
             /* color: #FFF; */
         }
 
-    .friends {
+    .eventFriendsBox {
         /* background-color: blueviolet; */
         grid-row: 4/5;
         grid-column: 1/2;
@@ -86,19 +59,19 @@
             border-radius: 10px;
         }
 
-    .time {
+    .eventTimeBox {
         /* background-color: slategrey; */
         grid-row: 4/5;
         grid-column: 2/3;
     }
 
-        .time p {
+        .eventTimeBox p {
             margin: 0;
             font-size: 12px;
             color: rgba(0, 0, 0, 0.4)
         }
 
-.box3 {
+.eventDateBox {
     /* background-color: violet; */
     display: flex;
     flex-direction: column;
@@ -106,17 +79,10 @@
     margin: auto;
 }
 
-.box3 p {
-    margin: 0;
-    font-size: 12px;
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.8);
-    /* color: #FFF; */
-}
+    .eventDateBox p {
+        margin: 0;
+        font-size: 12px;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.8);
+    }
 
-.profilePic {
-    width: 24px;
-    height: 24px;
-    background-color: red;
-    border-radius: 10px;
-}

@@ -10,7 +10,7 @@ import { FaRegSun } from "react-icons/fa";
 function navbar() {
   return (
     <div className="navbarContainer">
-        <Link to='FriendsPage' className="navFriends">
+        <Link to='friends' className="navFriends">
           <div className="navFriendsIcon"><FaUserFriends size="23px"/></div>
           <p className="navFriendsText">Friends</p>
         </Link>
@@ -18,7 +18,7 @@ function navbar() {
           <div className="navHomeIcon"><FaHome size="23px"/></div>
           <p className="navHomeText">Home</p>
         </Link>
-        <Link to='ProfilePage' className="navProfile">
+        <Link to='profile' className="navProfile">
           <div className="navProfileIcon"><FaRegSun size="23px"/></div>
           <p className="navProfileText">Profile</p>
         </Link>
