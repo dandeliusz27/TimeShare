@@ -3,7 +3,7 @@
     height: 100%;
     line-height: 1.125em;
     display: grid;
-    grid-template-rows: 58px auto;
+    grid-template-rows: 48px max-content;
   }
 
   .react-calendar__viewContainer {
@@ -45,7 +45,7 @@
   }
   .react-calendar__navigation {
     display: flex;
-    height: 58px;
+    height: 48px;
   }
   .react-calendar__navigation button {
     min-width: 44px;
@@ -73,7 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 47px;
+    height: 6.5vh;
     font-weight: 700;
     font-size: 14px;
     
@@ -100,7 +100,7 @@
     align-items: center;
     background: none;
     line-height: 16px;
-    height: 47px;
+    height: 6.5vh;
     color: #FFF;
   }
 

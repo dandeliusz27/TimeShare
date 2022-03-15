@@ -1,7 +1,7 @@
 .homeContainer {
   display: grid;
   /* background-color: aqua; */
-  grid-template-rows: 350px auto 20vh 60px;
+  grid-template-rows: calc(45.5vh + 58px) auto 20vh 60px;
 }
 
 .homeCalendarBox {
