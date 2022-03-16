@@ -1,0 +1,14 @@
+.profilePageContainer {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr) 60px;
+
+}
+
+.profilePageContainer img {
+    height: 48px;
+    width: 48px;
+}
+
+.profilePageContainer button {
+    height: 40px;
+}
